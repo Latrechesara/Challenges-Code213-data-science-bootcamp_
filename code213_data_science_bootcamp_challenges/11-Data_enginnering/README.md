@@ -1,7 +1,7 @@
 You can find the solution in this video: 
 
 https://www.youtube.com/watch?v=qGydpsYVT4w
-
+https://www.youtube.com/watch?v=qIZwFwtmJ48
 - Go to : https://app.quickdatabasediagrams.com/#/
 Copy the code from quickdb_schema.sql
 and generate the ERD :
