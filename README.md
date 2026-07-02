@@ -1,12 +1,14 @@
-# Challenges-Code213-data-science-bootcamp_
 
 # 🎓 Code213 Data Science Bootcamp Challenges
+
+<img width="1167" height="700" alt="flat-design-statistical-and-data-analysis-for-business-finance-investment-concept-flat-illustration-isolated-on-white-background-vector" src="https://github.com/user-attachments/assets/efecf535-6336-4538-8282-340469ce66f7" />
+
 
 Welcome to the definitive repository for the **Code213 Data Science Bootcamp Challenges**. This repository serves as a centralized hub containing end-to-end solutions, predictive pipelines, exploratory research notebooks, and production-level analytics dashboards developed throughout the curriculum.
 
 ---
 
-## 🛠️ Tech Stack & Ecosystem
+##  Tech Stack & Ecosystem
 
 ### Languages & Core Engines
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
