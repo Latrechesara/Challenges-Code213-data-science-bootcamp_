@@ -45,7 +45,7 @@ The bootcamp curriculum moves from foundational mathematics and software enginee
 | **11** | Robust Data Engineering Pipelines | Relational Databases, Scalable Schema Design | [📂 View Challenge](./code213_data_science_bootcamp_challenges/11-Data_enginnering/) |
 | **12** | Deep Learning Architectures | Convolutional Neural Networks (CNNs), Computer Vision | [📂 View Challenge](./code213_data_science_bootcamp_challenges/12-Deep_learning/) |
 | **13** | Modeling Complex Systems | Dynamic Networks, Non-linear State Space Analytics | [📂 View Challenge](./code213_data_science_bootcamp_challenges/13-Complex_systems/) |
-| **🌟** | **Comprehensive Capstone Project** | **End-to-End Breast Cancer Predictive Dashboard** | [🚀 Explore Capstone](./code213_data_science_bootcamp_challenges/Capstone_Project/breat_cancer_project/) |
+| **🌟** | **Exemple of Comprehensive Capstone Project** | **End-to-End Breast Cancer Predictive Dashboard** | [🚀 Explore Capstone](./code213_data_science_bootcamp_challenges/Capstone_Project/breat_cancer_project/) |
 
 ---
 
