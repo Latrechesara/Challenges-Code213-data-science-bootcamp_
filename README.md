@@ -35,8 +35,8 @@ The bootcamp curriculum moves from foundational mathematics and software enginee
 | Module Index | Challenge Scope & Domain | Technical Focus / Core Toolkit | Notebook Link |
 | :---: | :--- | :--- | :---: |
 | **02** | Foundational Programming for Data Science | Python Object-Oriented Programming (OOP), Data Structures | [📂 View Challenge](./code213_data_science_bootcamp_challenges/2-Fundational_programming_for_data_science/) |
-| **03** | Probability & Statistics for Data Science | Descriptive Stats, Hypothesis Testing, Distributions | [📂 View Challenge](./code213_data_science_bootcamp_challenges/3-Probabilty_and_statistics_for_data_science/) |
-| **04** | Core Mathematical Concepts | Linear Algebra, Calculus Optimizations, Matrices | [📂 View Challenge](./code213_data_science_bootcamp_challenges/4-Core_Mathematical_cocepts_in_data_science/) |
+| **03** | Probability & Statistics for Data Science | Descriptive Stats | [📂 View Challenge](./code213_data_science_bootcamp_challenges/3-Probabilty_and_statistics_for_data_science/) |
+| **04** | Core Mathematical Concepts |with Numpy ,pandas | [📂 View Challenge](./code213_data_science_bootcamp_challenges/4-Core_Mathematical_cocepts_in_data_science/) |
 | **05** | Advanced Data Visualization | Exploratory Visual Graphics, Matplotlib, Seaborn | [📂 View Challenge](./code213_data_science_bootcamp_challenges/5-Data_Visualisation/) |
 | **06** | Business Intelligence Engineering | Dashboard Architecture, ETL Data Modeling | [📂 View Challenge](./code213_data_science_bootcamp_challenges/6-Business_Intelligence/) |
 | **07** | Classical Machine Learning Algorithms | Regression Modules, Classification Frameworks | [📂 View Challenge](./code213_data_science_bootcamp_challenges/7-Machine_Learning/) |
@@ -44,7 +44,7 @@ The bootcamp curriculum moves from foundational mathematics and software enginee
 | **09** | Unsupervised Learning Frameworks | Dimensionality Reduction, Partitional Clustering | [📂 View Challenge](./code213_data_science_bootcamp_challenges/9-Unsupervised_learning/) |
 | **11** | Robust Data Engineering Pipelines | Relational Databases, Scalable Schema Design | [📂 View Challenge](./code213_data_science_bootcamp_challenges/11-Data_enginnering/) |
 | **12** | Deep Learning Architectures | Convolutional Neural Networks (CNNs), Computer Vision | [📂 View Challenge](./code213_data_science_bootcamp_challenges/12-Deep_learning/) |
-| **13** | Modeling Complex Systems | Dynamic Networks, Non-linear State Space Analytics | [📂 View Challenge](./code213_data_science_bootcamp_challenges/13-Complex_systems/) |
+| **13** | Modeling Complex Systems |Reinforcement learning | [📂 View Challenge](./code213_data_science_bootcamp_challenges/13-Complex_systems/) |
 | **🌟** | **Exemple of Comprehensive Capstone Project** | **End-to-End Breast Cancer Predictive Dashboard** | [🚀 Explore Capstone](./code213_data_science_bootcamp_challenges/Capstone_Project/breat_cancer_project/) |
 
 ---
