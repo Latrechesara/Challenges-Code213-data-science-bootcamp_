@@ -143,6 +143,19 @@ git clone https://github.com/Latrechesara/breast_cancer_project_code213.git
 cd breast_cancer_project_code213
 ```
 
+# 1. Create the virtual environment
+```bash for mac 
+python3 -m venv .venv
+
+# 2. Activate the environment
+source .venv/bin/activate
+
+``bash for windows
+# 1. Create the virtual environment
+python -m venv .venv
+
+# 2. Activate the environment
+.venv\Scripts\activate
 ---
 
 ## Install Dependencies
