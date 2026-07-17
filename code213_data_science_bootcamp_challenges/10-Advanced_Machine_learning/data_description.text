@@ -1,0 +1,73 @@
+# Thera Bank Personal Loan Dataset - Column Reference Guide
+
+This dataset contains demographic and financial information for 5,000 customers of Thera Bank. 
+The primary goal is to build machine learning classification models (**Logistic Regression, 
+Decision Trees, and Random Forests**) to predict which existing customers are most likely to accept 
+a personal loan offer ($Personal.Loan = 1$).
+
+---
+
+## 📋 Column Definitions & Descriptions
+
+### 1. Customer Demographics
+* **`ID`** *(Integer)*: Unique customer identification number.
+  * *Modeling Tip:* Drop this column before training; a random serial number has no predictive power.
+* **`Age`** *(Integer)*: The customer's age in years.
+* **`Experience`** *(Integer)*: Years of professional work experience.
+* **`Family`** *(Integer)*: Family size of the customer (e.g., `1` for single, `3` for a family 
+with a child).
+* **`ZIP.Code`** *(Integer)*: The postal/ZIP code of the customer's residence.
+
+### 2. Wealth & Financial Behavior
+* **`Income`** *(Integer)*: Annual income of the customer, typically represented in thousands of 
+dollars (e.g., `50` = \$50,000/year).
+* **`CCAvg`** *(Float)*: Average monthly credit card spending, typically represented in thousands 
+of dollars (e.g., `2.5` = \$2,500/month).
+* **`Mortgage`** *(Integer)*: Value of the customer's home mortgage, if applicable, in thousands 
+of dollars. A value of `0` means they do not have a mortgage.
+
+### 3. Education Profile
+* **`Education`** *(Integer/Categorical)*: The highest level of education completed by the customer, 
+encoded numerically:
+  * `1`: Undergrad (Bachelor's Degree)
+  * `2`: Graduate (Master's Degree)
+  * `3`: Advanced/Professional (Ph.D., M.D., J.D., etc.)
+
+### 4. Existing Bank Relationships (Binary Indicators)
+*These features use binary encoding:* `0` = No, `1` = Yes.
+
+* **`Securities.Account`** *(Integer)*: Does the customer hold an investment/stock trading 
+account with Thera Bank?
+* **`CD.Account`** *(Integer)*: Does the customer have a **Certificate of Deposit** account
+ with the bank? (Often indicates stable, high-value savings).
+* **`Online`** *(Integer)*: Does the customer utilize the bank's internet/online banking services?
+* **`CreditCard`** *(Integer)*: Does the customer carry a credit card issued specifically by 
+Thera Bank?
+
+---
+
+## 🎯 Target Variable (What We Are Predicting)
+
+* **`Personal.Loan`** *(Integer)*: Whether the customer accepted the personal loan offer during 
+the bank's last marketing campaign.
+  * **`0`**: **No** (Declined the offer)
+  * **`1`**: **Yes** (Accepted the offer)
+
+---
+
+## 🧠 Machine Learning & Modeling Checklist
+
+1. **Multicollinearity (Crucial for Logistic Regression):** Look closely at `Age` and `Experience`.
+ They are highly correlated (as age increases, experience naturally increases). Consider dropping 
+ one of them or using a dimensionality reduction technique to keep your LR model stable.
+2. **Feature Scale (Logistic Regression):** Columns like `Income` and `CCAvg` are on completely 
+different scales than binary columns like `Online`. Standardizing or normalizing these numerical 
+features is highly recommended before fitting an LR model.
+3. **Tree-Based Strengths (Decision Trees / Random Forests):** Your tree models will easily capture 
+non-linear relationships. Expect features like `Income`, `CCAvg`, and `CD.Account` to show up with 
+high **feature importance**, as wealthier customers with existing trust in the bank are historically 
+ the most likely to borrow more.
+4. **Evaluation Metric (AUC/ROC):** Because the vast majority of bank customers say "No" to loans, 
+your target variable (`Personal.Loan`) will be highly imbalanced (many more 0s than 1s). Standard 
+classification accuracy will be misleading. **AUC (Area Under the ROC Curve)** is the ideal metric 
+to evaluate and compare your models.
